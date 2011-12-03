@@ -1,8 +1,5 @@
 >> DOWNLOAD <<
-wget --no-check-certificate -O torrent-renamer.tar.gz http://github.com/maxexcloo/Server/tarball/master; tar zxvf torrent-renamer.tar.gz
+mkdir ~/scripts; wget --no-check-certificate -O ~/scripts/daemon.sh https://raw.github.com/maxexcloo/User-Daemon/master/scrips/daemon.sh; chmod +X ~/scripts/daemon.sh
 
 >> NOTES <<
-No instructions given, this is an undocumented hack.
-
->> CREDITS <<
-TorrentInfo: http://www.vrai.net/project.php?project=torrentinfo
+Installation is easy, simply run the above command and then add the line in the CRON file to your crontab. For an example script see example.sh
