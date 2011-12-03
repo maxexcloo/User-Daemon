@@ -1,0 +1,8 @@
+>> DOWNLOAD <<
+wget --no-check-certificate -O torrent-renamer.tar.gz http://github.com/maxexcloo/Server/tarball/master; tar zxvf torrent-renamer.tar.gz
+
+>> NOTES <<
+No instructions given, this is an undocumented hack.
+
+>> CREDITS <<
+TorrentInfo: http://www.vrai.net/project.php?project=torrentinfo
