@@ -1,5 +1,0 @@
->> DOWNLOAD <<
-mkdir ~/scripts; wget --no-check-certificate -O ~/scripts/daemon.sh https://raw.github.com/maxexcloo/User-Daemon/master/scrips/daemon.sh; chmod +X ~/scripts/daemon.sh
-
->> NOTES <<
-Installation is easy, simply run the above command and then add the line in the CRON file to your crontab. For an example script see example.sh
