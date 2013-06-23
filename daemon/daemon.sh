@@ -1,23 +1,14 @@
 #!/bin/bash
-cd ~/scripts/
+cd ~/daemon/
 
 # Loop Through Files
 for file in *.sh; do
-	# Find Base Name
-	base=$(basename $file)
-
 	# Find File Name
-	filename=${base%.*}
+	filename=$(basename $file .sh)
 
 	# Ignore Self
 	if [ "$filename" == "daemon" ]; then
 		echo "[$filename] Skipped"
-		continue
-	fi
-
-	# Check For Stop File
-	if [ -e $filename.stop ]; then
-		echo "[$filename] Blocked"
 		continue
 	fi
 
