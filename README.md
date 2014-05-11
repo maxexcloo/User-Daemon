@@ -1,7 +1,7 @@
 Notes
 =====
 
-Installation is easy, simply run the above command and then add the line in the CRON file to your crontab. For an example script see `example.sh`.
+Installation is easy, simply run the below command and then add the line in the crontab file to your crontab. For an example script see `example.sh`.
 
 Download
 ========
